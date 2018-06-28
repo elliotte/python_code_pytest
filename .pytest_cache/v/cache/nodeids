@@ -1,0 +1,11 @@
+[
+  "test_python.py::test_testingClass_variable",
+  "test_python.py::test_testingClass_func",
+  "test_python.py::test_aFunction",
+  "test_python.py::test_in_operator",
+  "test_python.py::test_if_code_int",
+  "test_python.py::test_if_code_string",
+  "test_python.py::test_if_code_other",
+  "test_python.py::test_my_func_with_args",
+  "test_python.py::test_challenge1"
+]
