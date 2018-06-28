@@ -43,8 +43,7 @@ def test_if_code_other():
 	assert result == "Yes Sir"
 
 def test_my_func_with_args():
-	# Passing but not working??
-	assert lambda : my_function_with_args("Nerd", "DoOne") == "Hello, Nerd , From My Function!, I wish you DoOne"
+	assert my_function_with_args("Nerd", "DoOne") == "Hello, Nerd , From My Function!, I wish you DoOne"
 
 ############ 
 #Standalone Tests
@@ -71,7 +70,7 @@ def if_statement_code(object):
 		return "Yes Sir"
 
 def my_function_with_args(username, greeting):
-    print("Hello, %s , From My Function!, I wish you %s"%(username, greeting))
+    return "Hello, %s , From My Function!, I wish you %s"%(username, greeting)
 
 ############ 
 #Classes for tests

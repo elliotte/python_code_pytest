@@ -1,3 +1,4 @@
 {
+  "test_python.py::test_my_func_with_args": true,
   "test_python.py::test_testingClass": true
 }
