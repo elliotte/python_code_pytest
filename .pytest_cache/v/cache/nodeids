@@ -1,14 +1,14 @@
 [
-  "test_python.py::test_testingClass_variable",
-  "test_python.py::test_testingClass_func",
-  "test_python.py::test_vehicle_func",
-  "test_python.py::test_aFunction",
-  "test_python.py::test_in_operator",
-  "test_python.py::test_if_code_int",
-  "test_python.py::test_if_code_string",
-  "test_python.py::test_if_code_other",
-  "test_python.py::test_my_func_with_args",
-  "test_python.py::test_challenge",
-  "test_python.py::test_dictionaries",
-  "test_python.py::test_sets"
+  "tests/test_classes.py::test_testingClass_variable",
+  "tests/test_classes.py::test_testingClass_func",
+  "tests/test_classes.py::test_vehicle_func",
+  "tests/test_functions.py::test_aFunction",
+  "tests/test_functions.py::test_in_operator",
+  "tests/test_functions.py::test_if_code_int",
+  "tests/test_functions.py::test_if_code_string",
+  "tests/test_functions.py::test_if_code_other",
+  "tests/test_functions.py::test_my_func_with_args",
+  "tests/test_standalone.py::test_challenge",
+  "tests/test_standalone.py::test_dictionaries",
+  "tests/test_standalone.py::test_sets"
 ]
