@@ -2,6 +2,8 @@
   "tests/test_classes.py::test_testingClass_variable",
   "tests/test_classes.py::test_testingClass_func",
   "tests/test_classes.py::test_vehicle_func",
+  "tests/test_dictionaries.py::test_dictionary_loops",
+  "tests/test_dictionaries.py::test_not_in_loop",
   "tests/test_functions.py::test_aFunction",
   "tests/test_functions.py::test_in_operator",
   "tests/test_functions.py::test_if_code_int",
