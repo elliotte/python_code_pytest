@@ -1,4 +1,4 @@
 {
   "test_python.py::test_testingClass": true,
-  "tests/test_classes.py::TestingClass": true
+  "tests/test_classes.py::TestingClass::()": true
 }
