@@ -1,19 +1,37 @@
-def my_decorator(some_function):
+# from modules import *
 
-	def my_wrapper():
+# class Coffee():
+#     def cost(self):
+#         return 2
 
-		num = 10
+# def cache(func):
+#     # Keep a dict of values returned already
+#     vals = {}
 
-        if num == 10:
-            print("Yes!")
-        else:
-            print("No!")
+#     def wrapper(x):
+#         if not vals.has_key(x):
+#             vals[x] = func(x)
+#         return vals[x]
 
-        some_function()
+#     wrapper.__doc__ = func.__doc__
 
-        print("Something is happening after some_function() is called.")
+#     return wrapper
 
-    return wrapper
+# @cache
+# def fib(x):
+#     """Fibonacci series
 
-if __name__ == "__main__":
-    my_decorator()
+#     >>> fib(1)
+#     1
+#     >>> fib(2)
+#     2
+
+#     """
+#     if x < 0:
+#         raise ValueError('Must be greater than 0')
+#     elif x == 0:
+#         return 1
+#     elif x == 1:
+#         return 1
+#     else:
+#         return fib(x - 1) + fib(x - 2)

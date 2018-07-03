@@ -1,4 +1,4 @@
-from lib.testing_class import TestingClass
+from lib.classes import TestingClass
 from lib.vehicle import VehicleClass
 
 def test_testingClass_variable():
