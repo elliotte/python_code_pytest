@@ -19,3 +19,11 @@ Numpy arrays are great alternatives to Python Lists.
 Pandas is a high-level data manipulation tool developed. It is built on the Numpy package and its key data structure is called the DataFrame.
 
 - [Pandas tutorials](https://www.learnpython.org/en/Pandas_Basics)
+
+### Gotcha
+
+Ignorig previously committed file, you can't just 'gitignore'.
+
+```bash
+git rm -r --cached .pytest_cache
+```
