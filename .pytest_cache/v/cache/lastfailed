@@ -1,7 +1,0 @@
-{
-  "test_python.py::test_testingClass": true,
-  "tests/test_decorators.py::test_cache": true,
-  "tests/test_john.py::test_john_uses_sets_for_memory": true,
-  "tests/test_john.py::test_john_uses_sets_to_remember_things": true,
-  "tests/test_john.py::test_knows_is_smashing_it": true
-}
